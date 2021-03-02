@@ -57,3 +57,11 @@ Tran<T>& Tran<T>::operator=(const Tran<T>& obj)
 	return *this;
 }
 ```
+## My work experience
+At the moment, I don't have work experience. But I am sure that soon I will start to get work experience.
+
+## My Education
+At the moment, I am study in BSUIR on 2 course. For the entire training period in BSUIR, I got good knowledge in **С++**. Also, I independently studied **JS**, **HTML** and **CSS**.
+
+## My English level
+ I have a good level of English, which allows me to communicate on any topics with people from other countries.
