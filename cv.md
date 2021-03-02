@@ -23,4 +23,37 @@ My main goal is to become a **front-end developer**. It is difficult to find a m
   * **Visual Studio**
   * **Visual Studio Code**
   
- 
+  ## My code example
+  * **C++(OOP) Code**
+``` C++
+template <class T>
+class Tran // класс транзакции
+{
+	// смарт указатели
+	T* that; // указатель на данное состояние
+	T* prev; // указатель на предыдущее состояние
+public:
+	Tran() :prev(NULL), that(new T) {} // конструктор
+	Tran(const Tran& obj) : // конструктор копирования
+		that(new T(*(obj.that))), prev(NULL) {}
+	~Tran() { delete that;  delete prev; } // деструктор
+	Tran& operator=(const Tran& obj); // перегрузка операции присваивания
+	void Show(int); // отображение значений предидущего и текущего обекта класса
+
+	bool Begin(); // начало транзакции
+	void Commit(); // закрепление транзакции
+	void Back(); // возврат
+	T* operator->(); // перегрузка операции ->
+};
+
+template <class T>
+Tran<T>& Tran<T>::operator=(const Tran<T>& obj)
+{
+	if (this != &obj) // проверка на случай обдж=обдж
+	{
+		delete that; // удаление текущего значения объекта
+		that = new T(*(obj.that)); // создание и копирование
+	}
+	return *this;
+}
+```
