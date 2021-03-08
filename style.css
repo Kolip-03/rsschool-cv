@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.zamk {
+    color:rgb(228, 222, 222);
+    text-align: center;
+    font-size: 70px;
+    text-shadow: rgb(228, 222, 222);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*https://365psd.ru/images/backgrounds/bg-dark-4784.jpg*/
+
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('https://365psd.ru/images/backgrounds/bg-dark-4784.jpg');
+}
+/*https://365psd.ru/images/backgrounds/bg-dark-4796.png*/
+footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('https://365psd.ru/images/backgrounds/bg-dark-4784.jpg');
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('https://365psd.ru/images/backgrounds/bg-dark-4823.png');
+}
+
+.Myfoto
+{
+    border-radius: 100px; /* Радиус скругления */
+    border: 7px solid rgb(7, 7, 7); /* Параметры рамки */
+    box-shadow: 0 0 7px rgb(17, 17, 17); /* Параметры тени */   
+   
+}
+
+.Class{
+    position: relative;
+    text-align: center;
+}
+
+.foto {   
+    text-align: center;
+}
+
+.info__ot
+{
+    margin: 100px;
+}
+
+.mynav{
+text-align: center;
+font-family: 'Lobster', cursive;
+font-family: 'Teko', sans-serif;
+padding: 5px;
+
+}
+
+.mynav a{
+    text-decoration: none;
+    
+}
+
+.mynav a:hover{
+    text-decoration: underline;
+}
+
+.mynav a:hover{
+    
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Параметры тени */
+    
+}
+
+nav h1{
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+}
+
+.center
+{
+    text-align:center;
+}
+
+.shrift1
+{
+    color:rgb(228, 222, 222);
+    font-size: 30px;
+    margin: 0px 10px 0px 100px; 
+   
+}
+
+
+
+.shrift2
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: rgb(228, 222, 222);
+    padding: 15px;
+}
+
+.shrift3
+{
+    color:rgb(228, 222, 222);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 10px 0px 100px;
+}
+
+.shrift4
+{
+ color: rgb(228, 222, 222);
+ font-family: 'Teko', sans-serif;
+ font-size:40px;
+text-decoration: none;
+/* text-shadow: 0 0 7px rgb(228, 222, 222); /* Параметры тени */ 
+}
+
+.shrift4:hover{
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(228, 222, 222);
+}
+
+.firsthr
+{
+    border: none;
+    height: 5px;
+    background-color: rgb(228, 222, 222);
+}
+
+
+.infoP {
+margin: 0px 400px;
+color:rgb(228, 222, 222);
+font-size: 25px;
+font-family: 'Teko', sans-serif;
+text-align: center;
+/*border: 5px solid black; /* Параметры рамки */
+    padding: 15px; /* Поля вокруг текста */
+    margin-bottom: 100px; /* Отступ снизу */
+}
+
+.educP
+{
+    color:rgb(228, 222, 222);
+    margin: 0px 400px;
+    font-size: 25px;
+font-family: 'Teko', sans-serif;
+text-align: center;
+border: 0px solid black; /* Параметры рамки */
+    padding: 15px; /* Поля вокруг текста */
+    margin-bottom: 100px;
+}
+
+.H__code
+{
+    font-size: 50px;
+    color: rgb(228, 222, 222);
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    padding:15px;
+}
+
+.p__code
+{
+    display: flex;
+    justify-content: center;
+    color:rgb(228, 222, 222);
+    /* background-image: url('https://365psd.ru/images/backgrounds/bg-dark-4822.png'); */
+    font-size: 25px;
+    font-family: 'Teko', sans-serif;
+
+    
+    
+    
+}
+
+.code__one
+{
+    padding:15px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+
+.textcor
+{
+    font-size: 10px;
+}
+
+.skills a
+{
+    text-decoration: none;
+}
+
+.skills{    
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Teko', sans-serif;
+}    
+
+.info
+{
+    font-size: 50px;
+    color: rgb(228, 222, 222);
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    padding:15px;
+}
+
+.skills__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__undertitle {
+    color: rgb(228, 222, 222);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.skills__list {
+    list-style: none;
+    color: rgb(228, 222, 222);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.container
+{
+    padding: 15px;
+}
+
+.Contac
+{
+    font-size: 50px;
+    color:rgb(228, 222, 222);
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    padding:15px;
+}
+
+.Contacts__title__info
+{
+    text-align: center;
+}
+
+
+
+.contacts__S{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Teko', sans-serif;
+    padding: 5px;
+    
+    }
+    
+    .contacts__S a{
+        text-decoration: none;
+        
+    }
+    
+    .contacts__S a:hover{
+        text-decoration: none;
+    }
+    
+    .contacts__S a:hover{
+        
+        text-shadow: 1px 1px 2px rgb(228, 222, 222); /* Параметры тени */
+        
+    }
+
+    .container
+    {
+        margin-bottom: 100px;
+    }
+
